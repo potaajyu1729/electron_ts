@@ -1,14 +1,14 @@
 {
   "name": "electron_ts",
   "version": "1.0.0",
-  "description": "Electron + TypeScript USB detection demo (Windows)",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
-    "start": "npm run build && electron ."
+    "start": "npm run build && electron .",
+    "build": "tsc"
   },
   "devDependencies": {
-    "electron": "^39.2.7",
-    "typescript": "^5.4.0"
+    "electron": "39.2.7",
+    "typescript": "^5.2.2",
+    "@types/node": "18.17.17"
   }
 }
