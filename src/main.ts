@@ -48,7 +48,7 @@ async function updateUsbState() {
 
 function createWindow() {
   win = new BrowserWindow({ width: 800, height: 600 });
-  win.loadURL("data:text/html,<h2>USBを挿してください</h2>");
+  win.loadURL('data:text/html;charset=utf-8,<h2>USBを挿入してください</h2>');
   setInterval(updateUsbState, 2000);
 }
 
